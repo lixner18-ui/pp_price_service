@@ -1,0 +1,12 @@
+# 忽略通达信原始下载数据目录
+**/pp_quotes/downloads/
+
+# 忽略转换后的 CSV 数据目录（体积大，不需要传到 GitHub）
+**/pp_quotes/data/
+
+# 如果你把数据放在了当前项目下的某个文件夹（例如叫 data），直接写文件夹名：
+# data/
+
+# 顺便忽略 Python 运行时自动生成的缓存文件夹
+__pycache__/
+*.pyc
